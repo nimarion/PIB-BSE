@@ -19,7 +19,7 @@ Ein Betriebssystem ist eine Zusammenstellung von Computerprogrammen, die die Sys
 
 **Weiß, was das Schichtenmodell von UNIX bedeutet**
 
-![Unix Onion](img/unix-architecture.png)
+![Unix Onion](../../img/unix-architecture.png)
 
 **Weiß, was CLI und GUI bedeuten**
 
