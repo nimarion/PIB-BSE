@@ -8,6 +8,7 @@ Ein Betriebssystem ist eine Zusammenstellung von Computerprogrammen, die die Sys
 - Bereitstellen einer Benutzerschnittstelle (Kommandointerpreter - Shell u./o. Graphische Oberfläche - GUI)
 - Bereitstellen einer normierten Programmierschnittstelle (API)
 - Verwalten der Resourcen der realen Maschine
+
   - Prozessor(en)
   - Hauptspeicher
   - Hintergrundspeicher ( Festplatten SSDs, ...)
@@ -40,6 +41,9 @@ Nutzung von Software auf vielen verschiedenen Plattformen anstatt einer einzigen
 **Weiß, was "skalierbar " für ein Betriebssystem bedeutet**
 
 **Weiß, warum UNIX als "stabiles, sicheres" Betriebssystem angesehen wird**
+
+- stabile Entwicklung durch die Community
+- schnelle Fehlerfindung durch die Community
 
 **Weiß, warum UNIX als "modernes " Betriebssystem angesehen wird**
 
