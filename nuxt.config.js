@@ -13,7 +13,6 @@ export default theme({
     ackee: {
         server: 'https://ackee-niklas.netlify.app',
         domainId: '81458316-3dbb-436c-a19c-f51b60b262cf',
-        detailed: true
     },
     head: {
         htmlAttrs: {

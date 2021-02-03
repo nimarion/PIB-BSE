@@ -53,6 +53,14 @@ set -x
 
 ## Weiß, wie ich einen Teil, z.B. eine Variable eines Shell Skripts debugge.
 
+```bash
+code...
+set -x
+code der debugged werden soll
+set +x
+```
+
+
 ## Kann ein Shell Skript schreiben, welches ein Array mit Servern definiert. Jedes Array Element soll x-mal angepingt werden (x wird als Kommandozeilenparameter mitgegeben). Nachdem alle Server x-mal angepingt worden sind, soll eine Zusammenfassung von der Anzahl erreichbarer und nicht erreichbarer Server angegeben werden.
 
 ```bash
