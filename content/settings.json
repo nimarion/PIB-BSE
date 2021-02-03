@@ -1,0 +1,10 @@
+{
+    "title": "Betriebssystemeinführung ",
+    "url": "http://nimarion.github.io/PIB-BSE",
+    "logo": {
+      "light": "/logo-light.svg",
+      "dark": "/logo-dark.svg"
+    },
+    "github": "nimarion/PIB-BSE",
+    "defaultBranch": "master"
+  }

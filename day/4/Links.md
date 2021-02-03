@@ -1,1 +1,0 @@
-[Berechtigungskonzepte](https://www.selflinux.org/selflinux/pdf/nutzer_unter_linux.pdf)

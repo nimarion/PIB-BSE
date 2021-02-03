@@ -1,0 +1,13 @@
+{
+  "name": "bse",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "start": "nuxt start"
+  },
+  "dependencies": {
+    "@nuxt/content-theme-docs": "^0.9.0",
+    "nuxt": "^2.14.12"
+  }
+}
