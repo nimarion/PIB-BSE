@@ -3,7 +3,7 @@ title: Tag 11
 category: Vorlesung
 position: 12
 ---
-## kenne die set -o option-name Bedeutung in der bash von: - allexport - noclobber - noglob - monitor - noexec
+## Kenne die set -o option-name Bedeutung in der bash von: - allexport - noclobber - noglob - monitor - noexec
 
 - exportiert automatisch alle Variablen
 - Verhindert das überschreiben von existierenden Datein
@@ -17,7 +17,23 @@ position: 12
 - Menüpunkt 3 löscht die Datei myfile
 - Menüpunkt 4 beendet das Shell Skript.
 
+```bash
+#!/bin/bash
+ENDE=0
+PS3="Bitte auswaehlen: "
+while [[ $ENDE != 1 ]]; do
+    select VAR in anlegen ändern löschen ende; do
+        [[ $VAR == "anlegen" ]] && touch myfile
+        [[ $VAR == "ändern" ]] && chmod 700 myfile
+        [[ $VAR == "löschen" ]] && rm myfile
+        [[ $VAR == "ende" ]] && ENDE=1 && break
+    done
+done
+```
+
 ## Weiß was passiert, wenn bei dem Skript aus Ausgabe Nr.2 der eingegebene Menüpunkt nicht existiert.
+
+Eingabe wird ignoriert. Falscher Eingabewert wird in der Variable REPLY gespeichert.
 
 ## Kann das Skript aus Aufgabe Nr.2 mittels case-Anweisung realisieren.
 
