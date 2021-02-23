@@ -87,7 +87,7 @@ Verwerfen von Daten
 - der Inhalt des Shellfensters wird gelöscht
 
 ```bash
-javac MyClass.java && clear
+javac MyClass.java || clear
 ````
 
 - die Fehler werden im Shellfensters angezeigt
