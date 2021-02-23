@@ -44,5 +44,5 @@ wc -lw xxx
 ## Kann aus meinem HOME-Directory alle Dateien, die mit dem Namensteil ".tarantella " beginnen, so löschen, dass ich beim Löschen jeder Datei vorher gefragt werde
 
 ```bash
-rm -i *.tarantella
+rm -i .tarantella*
 ``` 
