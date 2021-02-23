@@ -99,11 +99,11 @@ javac MyClass.java
 - die Shell pausiert für 30 Sekunden
 
 ```bash
-javac MyClass.java || sleep 30
+javac MyClass.java && sleep 30
 ```
 
 - MyClass.java wird in einem Editor geöffnet
 
 ```bash
-javac MyClass.java || vi MyClass.java
+javac MyClass.java && vi MyClass.java
 ```
