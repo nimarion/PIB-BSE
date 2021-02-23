@@ -6,7 +6,7 @@ position: 4
 ## Kann alle Einträge ermitteln, die in meinem Teilbaum sind,beginnend beim HOME-Directory , liegen und größer als 500 Kilobytes sind
 
 ```bash
-find . -type f -size +500k
+find . -size +500k
 ```
 
 ## Kann in meinem Verzeichnis ueb02 in der Datei Artikel.java jede Zeile ausgeben, die mindestens einen der Modifikatoren public , private oder protected enthält
