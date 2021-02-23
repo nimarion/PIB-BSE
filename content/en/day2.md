@@ -26,7 +26,7 @@ more erlaubt nur das "runterscrollen" und wir deswegen auch nicht mehr genutzt.
 ## Kann mir alle Files in meinem HOME-Directory vollständig und sortiert nach dem Änderungsdatum anzeigen
 
 ```bash
-ls -l
+ls -alt
 ```
 
 ## Weiß, welchen Typ die Datei .profile in meinem HOMEDirectory hat
