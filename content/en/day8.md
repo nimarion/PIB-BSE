@@ -28,6 +28,10 @@ Lesen Eingaben auch von der Standard Eingabe ein und nicht nur aus Dateien bzw A
 
 ## Weiß, welche Wirkung das Pipe-Symbol "|" in folgender Kommandozeile hat: ls | wc –l
 
+Verbindet die den Ausgabekanal von ls mit dem Eingabekanal von wc.
+
+Ergebniss ist:
+
 Gibt die Anzahl der Dateien und Ordner in dem aktuellen Verzeichnis aus
 
 ## Kann in meiner Java-Datei LinkFilter.java zählen, wieviele Zeilen die Modifikatoren "public" oder "protected" enthalten
