@@ -12,7 +12,7 @@ find . -size +500k
 ## Kann in meinem Verzeichnis ueb02 in der Datei Artikel.java jede Zeile ausgeben, die mindestens einen der Modifikatoren public , private oder protected enthält
 
 ```bash
-cat Artikel.java| grep -E "public|protected|private"
+grep -E "public|protected|private"
 ```
 
 ## Weiß, unter welchen Pfadangaben ich das Programm und die Handbuchseiten des Kommandos echo finden kann
