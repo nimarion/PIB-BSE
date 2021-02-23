@@ -37,7 +37,7 @@ Gibt die Anzahl der Dateien und Ordner in dem aktuellen Verzeichnis aus
 ## Kann in meiner Java-Datei LinkFilter.java zählen, wieviele Zeilen die Modifikatoren "public" oder "protected" enthalten
 
 ```bash
-cat LinkFilter.java| grep -E "public|protected" | wc -l
+grep -E "public|protected" LinkFilter.java | wc -l
 ```
 
 ## Weiß, wie ich die Java-Klasse ArtikelDialog so testen kann, dass die notwendigen Eingaben aus der Datei MyTest kommen
