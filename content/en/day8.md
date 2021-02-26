@@ -88,7 +88,7 @@ Verwerfen von Daten
 
 ```bash
 javac MyClass.java || clear
-````
+```
 
 - die Fehler werden im Shellfensters angezeigt
 
