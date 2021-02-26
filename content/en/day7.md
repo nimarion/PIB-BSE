@@ -11,7 +11,7 @@ Ein Programm besteht immer aus einem oder mehreren Prozessen.
 ## Kann mit dem Kommando ps alle Prozesse anzeigen, die unter meiner Benutzerkennung laufen
 
 ```bash
-ps -A
+ps -u
 ```
 
 ## Kann das Kommando pstree so anwenden, dass alle meine Prozesse angezeigt werden
