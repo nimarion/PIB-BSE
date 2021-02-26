@@ -43,7 +43,7 @@ chmod 544 myScript #-r-xr--r--
 
 ## Weiß, warum ich das Skript dsbm im Ordner bin des Benutzers pick ausführen kann
 
-Gruppe pi20 hat --x Rechte auf die Datei
+Gruppe pi20 hat r-x Rechte auf die Datei
 Andere haben --x Rechte auf die Datei
 
 ```bash

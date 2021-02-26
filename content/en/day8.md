@@ -28,12 +28,16 @@ Lesen Eingaben auch von der Standard Eingabe ein und nicht nur aus Dateien bzw A
 
 ## Weiß, welche Wirkung das Pipe-Symbol "|" in folgender Kommandozeile hat: ls | wc –l
 
+Verbindet die den Ausgabekanal von ls mit dem Eingabekanal von wc.
+
+Ergebniss ist:
+
 Gibt die Anzahl der Dateien und Ordner in dem aktuellen Verzeichnis aus
 
 ## Kann in meiner Java-Datei LinkFilter.java zählen, wieviele Zeilen die Modifikatoren "public" oder "protected" enthalten
 
 ```bash
-cat LinkFilter.java| grep -E "public|protected" | wc -l
+grep -E "public|protected" LinkFilter.java | wc -l
 ```
 
 ## Weiß, wie ich die Java-Klasse ArtikelDialog so testen kann, dass die notwendigen Eingaben aus der Datei MyTest kommen
@@ -83,8 +87,8 @@ Verwerfen von Daten
 - der Inhalt des Shellfensters wird gelöscht
 
 ```bash
-javac MyClass.java && clear
-````
+javac MyClass.java || clear
+```
 
 - die Fehler werden im Shellfensters angezeigt
 
