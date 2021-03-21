@@ -97,4 +97,4 @@ Zeigt dem Betriebssystem an, wo ausführbare Dateien liegen
 
 ## Weiß, was der Bestandteil ":.:" der Systemvariable PATH bewirkt
 
-Trennt verschieden Verzeichnisse voneinander ab
+Zeigt immer auf das aktuelle genutzte Verzeichnis
