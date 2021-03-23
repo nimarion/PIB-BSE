@@ -26,9 +26,9 @@ pwd
 
 ## Kenne den Unterschied zwischen absolutem Pfad und relativem Pfad
 
-Der realtive Pfad geht vom aktuellen Verzeichnis des Nutzers aus. (pwd)
+Der realtive Pfad geht vom aktuellen Verzeichnis des Nutzers aus.
 
-Der absolute Pfad geht immer vom Wurzelverzeichnis / aus.
+Der absolute Pfad geht immer vom Wurzelverzeichnis / aus. (Absoluter Pfad des aktuellen Verzeichnis = pwd)
 
 ## Weiß, welcher Pfad (absolut, relativ) i.A. länger ist
 

@@ -84,7 +84,7 @@ ls [!.]?.ksh| wc -l
 
 b) 
 ```bash
-{ ls [a-z]*.ksh ; ls [A-Z]*.java ; ls [0-9]*.sql 2> /dev/null; } | wc -l
+{ ls [a-z]*.ksh 2> /dev/null; ls [A-Z]*.java 2> /dev/null; ls [0-9]*.sql 2> /dev/null; } | wc -l
 ```
 
 ## Aufgabe 5
