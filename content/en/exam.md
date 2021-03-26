@@ -105,10 +105,8 @@ Führt die Befehle in der aktuellen Shell aus. Durch das Pipe Symbol wird die Au
 
 ## Aufgabe 6
 
-*nicht getestet*
-
 ```bash
-javac Artikel.java && TestEingabe > java TesteArtikel > TestAusgabe 2> TestFehler
+javac Artikel.java && java TesteArtikel < TestEingabe > TestAusgabe 2> TestFehler
 ```
 
 ## Aufgabe 7
